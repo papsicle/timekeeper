@@ -1,0 +1,10 @@
+[package]
+name = "timekeeper"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+sled = "0.29.2"
+actix-web =  { git = "https://github.com/actix/actix-web" }
+bytes = "*"
+serde = "*"
