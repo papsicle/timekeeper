@@ -5,7 +5,7 @@ edition = "2018"
 
 [dependencies]
 sled = "0.29.2"
-actix-web =  { git = "https://github.com/actix/actix-web" }
+actix-web =  { git = "https://github.com/actix/actix-web", rev="525c22de157cc379c9944672897654b27c801b7a" }
 bytes = "*"
 serde = "*"
 env_logger = "*"
